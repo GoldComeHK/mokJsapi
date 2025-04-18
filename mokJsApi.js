@@ -425,9 +425,9 @@ function _ai客服(){
     // 创建并插入script元素
     $('<script>')
     .html(`
-        window.greetings = ["Hello, I'm 金come AI! 👋🏻","Ask me anything."];
+        window.greetings = ["Hello, I'm your assistant! 👋🏻","Ask me anything."];
         window.chatPosition = "right-bottom";
-        window.chatBalloonImg = 'https://95cccf8161a54e107ffcf29811489ca3.cdn.bubble.io/f1703594185305x250706791866744700/aicado-seffaf.png';
+        window.chatBalloonImg = '//a821d63e790a2b70ddeb996bbc284b53.cdn.bubble.io/f1744998350815x265120218675150900/WhatsApp%20Image%202025-03-17%20at%2021.32.13.jpeg';
         window.chatbotIframeSrc = 'https://go.aicado.ai/XXb39oH';
     `)
     .appendTo('head');
@@ -446,7 +446,7 @@ function _ai客服(){
     // 插入客服iframe元素
     $("body").prepend(`<script src="https://cdn.jsdelivr.net/gh/efesener/aicado/aicado-llm.js"></script>`)
 
-    // 隱藏logo
+    // 隱藏logo qqq
     $(".bubble-element.CustomElement.baTraHaL.bubble-r-container.flex.row").removeAttr("style").hide();
   }
 
