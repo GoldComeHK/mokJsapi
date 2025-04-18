@@ -425,10 +425,10 @@ function _ai客服(){
     // 创建并插入script元素
     $('<script>')
     .html(`
-        window.greetings = ["hihi! 👋🏻","我是 金come ai客服😃"];
+        window.greetings = ["Hello, I'm 金come AI! 👋🏻","Ask me anything."];
         window.chatPosition = "right-bottom";
-        window.chatBalloonImg = '//a821d63e790a2b70ddeb996bbc284b53.cdn.bubble.io/f1742732657320x407713372944441800/WhatsApp%20Image%202025-03-17%20at%2021.32.13.jpeg';
-        window.chatbotIframeSrc = 'https://go.aicado.ai/jHhDE7y';
+        window.chatBalloonImg = 'https://95cccf8161a54e107ffcf29811489ca3.cdn.bubble.io/f1703594185305x250706791866744700/aicado-seffaf.png';
+        window.chatbotIframeSrc = 'https://go.aicado.ai/XXb39oH';
     `)
     .appendTo('head');
 
@@ -436,8 +436,8 @@ function _ai客服(){
     $('<style>')
     .html(`
         :root {
-            --aicado-greetings-bg: #000;
-            --aicado-greetings-color: #999;
+            --aicado-greetings-bg: #A4F589;
+            --aicado-greetings-color: #1A1A1A;
             --aicado-greetings-font-family: Roboto Slab, serif;
         }
     `)
