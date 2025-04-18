@@ -425,10 +425,10 @@ function _ai客服(){
     // 创建并插入script元素
     $('<script>')
     .html(`
-        window.greetings = ["hihi! 👋🏻","我是ai客服😃"];
+        window.greetings = ["hihi! 👋🏻","我是 金come ai客服😃"];
         window.chatPosition = "right-bottom";
         window.chatBalloonImg = '//a821d63e790a2b70ddeb996bbc284b53.cdn.bubble.io/f1742732657320x407713372944441800/WhatsApp%20Image%202025-03-17%20at%2021.32.13.jpeg';
-        window.chatbotIframeSrc = 'https://go.aicado.ai/1xNLkoD';
+        window.chatbotIframeSrc = 'https://go.aicado.ai/jHhDE7y';
     `)
     .appendTo('head');
 
@@ -498,7 +498,7 @@ function _統一我司名(){
     }
 
     // 修改 頁內我司名
-    $('#_我司名').text(我公司名+'555')
+    $('#_我司名').text(我公司名)
 };
 
 
