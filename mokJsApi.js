@@ -109,6 +109,8 @@ $(document).ready(function() {
 
   //$('.mokJsApi_copyright').text('© ' + new Date().getFullYear() + ' All rights reserved by ' + location.hostname).css({'font-size': 'medium'});    
 
+    網站名是版權人 = location.hostname
+    if (網站名是版權人 == 'xn--come-p35m.com') 網站名是版權人 = '金come.com'
 
   $('.mokJsApi_copyright').html(
     `©${new Date().getFullYear()}All rights reserved by ${location.hostname}
@@ -498,7 +500,7 @@ function _統一我司名(){
     }
 
     // 修改 頁內我司名
-    $('#_我司名').text(我公司名)
+    $('._我司名').text(我公司名)
 };
 
 
