@@ -113,7 +113,7 @@ $(document).ready(function() {
     if (網站名是版權人 == 'xn--come-p35m.com') 網站名是版權人 = '金come.com'
 
   $('.mokJsApi_copyright').html(
-    `©${new Date().getFullYear()}All rights reserved by ${location.hostname}
+    `© ${new Date().getFullYear()} All rights reserved by ${location.hostname}
     <br>
     <a class="btn" href='https://raw.githubusercontent.com/64071181/64071181.github.io/refs/heads/main/PrivacyPolicy.md' target="_blank" >隱私權政策</a>
     `
