@@ -110,6 +110,10 @@ $(document).ready(function() {
   //$('.mokJsApi_copyright').text('© ' + new Date().getFullYear() + ' All rights reserved by ' + location.hostname).css({'font-size': 'medium'});    
 
     網站名是版權人 = location.hostname
+
+    console.log(`網站名是版權人${網站名是版權人}`)
+
+
     if (網站名是版權人 == 'xn--come-p35m.com') 網站名是版權人 = '金come.com'
 
   $('.mokJsApi_copyright').html(
