@@ -14,7 +14,7 @@
   .fa,.fab,.fas {font-size: 2rem;height: 2rem;}
   a{text-decoration: none;color: var(--標題色);}
   * { scrollbar-width: none; /* 滾動條美化 */}
-  .主題色{color: var(--主題色); } 
+  .主題色{color: gold; } 
   .按鈕色{color: var(--按鈕色); }
   .標題色{color: var(--標題色); }
   .文字色,p {color: var(--文字色); }
