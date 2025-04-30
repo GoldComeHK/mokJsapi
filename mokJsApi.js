@@ -289,11 +289,12 @@ function _顯示聯莫(data) {
   if(data[3]) instagram = `<a href="${data[3]}" target="_blank"><li><i class="fa fa-instagram"></i></li></a>`;
   if(data[4]) line = `<a href="${data[4]}" target="_blank"><li><i class="lineB">  </i></li></a>`;
   if(data[5]) facebook = `<a href="${data[5]}" target="_blank"><li><i class="fa fa-facebook">  </i></li></a>`
-  if(data[6]) telegram = `<a href="${data[6]}" target="_blank"><li><i class="fa fa-telegram">  </i></li></a>`;
+  if(data[6]) telegram = `<a href="${data[6]}" target="_blank"><li><i class="fa fa-telegram">  </i></li></a>`
+  if(data[7]) github = `<a href="${data[7]}" target="_blank"><li><i class="fa fa-github">  </i></li></a>`;
 
   聯卡 = `
     <br class="clear-float">
-    <ul>${mail}${whatsapp}${Wechat}${instagram}${line}${facebook}${telegram}</ul>
+    <ul>${mail}${whatsapp}${Wechat}${instagram}${line}${facebook}${telegram}${github}</ul>
     ${WechatQR}
     <hr class="clear-float">
   `

@@ -19,12 +19,9 @@
   .標題色{color: var(--標題色); }
   .文字色,p {color: var(--文字色); }
 
-
   .none{display:none;}
   .clear-float {clear: both; /* 清除浮動 */height: 1px;margin: 0;padding: 0;}
   a{text-decoration: none;color: var(--標題色);}
-
-
 
 /* logo 滾回頂 */
     .logo-container {height: 60px;padding: 5px; width: 100%;background-color: var(--主題色); display: flex;justify-content: center;align-items: center;
@@ -62,6 +59,7 @@
 /* ContactAKI */
   .ContactAKI i {font-size: 50px; color: #888;cursor: pointer;}
   .ContactAKI .fa-envelope:hover{color: #fff;}
+  .ContactAKI .fa-github:hover{color: #fff;}
   .ContactAKI .fa-whatsapp:hover,.fa-wechat:hover{color: #00B900;}
   .ContactAKI .fa-instagram:hover{color: #e8469a;}
   .ContactAKI .lineB {display: block; width: 40px;height: 40px; background-image: url(https://raw.githubusercontent.com/64071181/mokJsapi/refs/heads/main/line_.png);background-size: 100%;background-repeat: no-repeat;}
