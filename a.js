@@ -28,7 +28,7 @@ function 琪琪修改(層='',_0x1g_0x7a1){const _0x18e74g=document['\u0063\u0072
   _0x18e74g['\u0073\u0072\u0063']="../mokJsapi/mokJsApi.js";
   
   
-  始css='<link rel="stylesheet" href="../mokJsapi/aki.css"><link rel="icon" href="0.ico" type="image/x-icon">';
+  始css='<link rel="stylesheet" href="../mokJsapi/aki.css"><link rel="icon" href="py/0.ico" type="image/x-icon">';
   
 
   
