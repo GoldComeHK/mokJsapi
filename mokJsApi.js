@@ -307,7 +307,7 @@ document.querySelectorAll('.ContactAKI ul li .fa-wechat').forEach(icon => {
     qr.style.display = 'block';
   });
   icon.parentElement.addEventListener('mouseleave', () => {
-    qr.style.display = 'none';
+    setTimeout(() => {qr.style.display = 'none';}, 200)
   });
 });
 
